@@ -1,0 +1,43 @@
+* {
+    margin: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+body {
+    height: 100vh;
+    display: flex;
+}
+.container {
+    border: 1px solid black;   
+}
+#left-container {
+    display: flex;
+    justify-content: center;
+    width: 35vw;
+}
+#right-container {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+.logo-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 8rem;
+    flex: 1;
+    height: 7rem;
+    border: 1px solid green;
+}
+.text-container {
+    border: 1px solid red;
+    height: 30vh;
+}
+.form-container {
+    border: 1px solid blueviolet;
+    height: 45vh;
+}
+.sign-up-container {
+    border: 1px solid rosybrown;
+    height: 25vh;
+}
