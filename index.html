@@ -1,3 +1,7 @@
+<!-- TODO:
+-fix html form structure
+-add functional button
+-fix margin and padding rem to px -->
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -9,19 +13,63 @@
 <body>
     <div class="container" id="left-container">
         <div class="logo-container">
-            logo container
+            <img class="logo" src="odin-lined.png" alt="Odin logo">
+            <h1 class="odin-title">ODIN</h1>
         </div>
     </div>
     <div class="container" id="right-container">
         <div class="text-container">
-            text container
+            This is not a real online service! You know you need something like this in you life to help you realize your deepest dreams. 
+Sign up now and get started!
+You know you want to.
         </div>
         <div class="form-container">
-            form container
+            Let's do this!
+            <form action="index.html" method="post">
+                <ul class="form-row">
+                        <li>
+                            <label for="first-name">FIRST NAME</label>
+                            <input type="text" id="first-name" name="first-name">
+                        </li>
+
+                        <li>
+                            <label for="email">LAST NAME</label> 
+                            <input type="text" id="last-name" name="last-name">
+                        </li>
+                </ul>
+
+                <ul class="form-row">
+                        <li>
+                            <label for="email">EMAIL</label> 
+                            <input type="email" id="email" name="email">
+                        </li>
+
+                        <li>
+                            <label for="phone-number">EMAIL</label> 
+                            <input type="tel" id="phone-number" name="phone-number">
+                        </li>
+                </ul>
+
+                <ul class="form-row">
+                    <li>
+                        <label for="password">PASSWORD</label> 
+                        <input type="password" id="password" name="password">
+                    </li>
+
+                    <li>
+                        <label for="confirm-password">CONFIRM PASSWORD</label> 
+                        <input type="password" id="confirm-password" name="confirm-password">
+                    </li>
+                </ul>
         </div>
         <div class="sign-up-container">
-            sign up container
+            <button id="sign-up-btn">Create Account</button>
+            </fieldset>
+            </form>
+            <h1 class="account-text">Already have an account? <button id="login-btn">Log in</button></h1>
         </div>
+
+
     </div>
     
 </body>
