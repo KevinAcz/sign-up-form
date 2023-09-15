@@ -11,7 +11,6 @@ body {
 }
 input {
     display: flex;
-    /* appearance: none; */
     background-color: var(--purple);
     padding: 6px 20px;
     border: 1px solid white;
@@ -56,6 +55,10 @@ li {
     flex-direction: column;
     flex: 1;
 }
+#right-container > div {
+    padding-left: 6rem;
+    padding-right: 6rem;
+}
 .logo-container {
     background-color: rgba(1, 1, 1, 0.50);
     display: flex;
@@ -64,7 +67,6 @@ li {
     margin-top: 7rem;
     flex: 1;
     height: 7rem;
-    /* border: 1px solid green; */
 }
 .logo {
     width: 6rem;
@@ -75,24 +77,21 @@ li {
     font-size: 3.5rem;
 }
 .text-container {
-    /* border: 1px solid red; */
     background-color: var(--deep-purple);
     box-shadow: 0px 35px 77px 0px rgba(96, 62, 62, 0.10) inset, 0px 141px 141px 0px rgba(96, 62, 62, 0.09) inset, 0px 317px 190px 0px rgba(96, 62, 62, 0.05) inset, 0px 563px 225px 0px rgba(96, 62, 62, 0.01) inset, 0px 880px 246px 0px rgba(96, 62, 62, 0.00) inset;
     height: 30vh;
     font-family: var(--text);
     color: white;
-    padding-left: 4rem;
-    padding-right: 4rem;
-    font-size: 1.5rem;
-    padding-top: 4rem;
+    font-size: 1.3rem;
+    padding-top: 5rem;
 }
 .form-container {
-    /* border: 1px solid blueviolet; */
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
     font-family: var(--text);
     color: white;
-    font-size: 1.5rem;
-    padding-left: 4rem;
-    padding-right: 4rem;
+    font-size: 1.3rem;
     padding-top: 1rem;
 
     background: var(--purple);
@@ -106,19 +105,15 @@ button {
 }
 #sign-up-btn {
 
-    margin-left: 4rem;
-    margin-right: 4rem;
-    margin-top: 1rem;
+    margin-top: 1.5rem;
     padding: 15px 45px;
     border-radius: 12px;
     background-color: #3A0152;
     color: white;
     font-family: var(--text);
-    font-size: 18px;
+    font-size: 1.2rem;
 }
 .sign-up-container {
-    /* box-shadow: 0px 35px 77px 0px rgba(96, 62, 62, 0.10) inset, 0px 141px 141px 0px rgba(96, 62, 62, 0.09) inset, 0px 317px 190px 0px rgba(96, 62, 62, 0.05) inset, 0px 563px 225px 0px rgba(96, 62, 62, 0.01) inset, 0px 880px 246px 0px rgba(96, 62, 62, 0.00) inset; */
-    /* border: 1px solid rosybrown; */
     background-color: var(--deep-purple);
     height: 25vh;
 }
@@ -126,16 +121,15 @@ label {
     font-size: 0.9rem;
 }
 .account-text {
-    margin-left: 4rem;
-    margin-right: 4rem;
     margin-top: 1rem;
     font-family: var(--text);
-    font-size: 18px;
+    font-weight: 100;
+    font-size: 1.2rem;
     color: white;
 }
 #login-btn {
     font-family: var(--text);
     font-size: 18px;
     color: #DCCAE9;
-    background: none;
+    text-decoration: none;
 }

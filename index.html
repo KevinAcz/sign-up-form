@@ -21,7 +21,7 @@
         <div class="text-container">
             This is not a real online service! You know you need something like this in you life to help you realize your deepest dreams. 
 Sign up now and get started!
-You know you want to.
+<i>You know you want to.</i>
         </div>
         <div class="form-container">
             Let's do this!
@@ -29,44 +29,44 @@ You know you want to.
                 <ul class="form-row">
                         <li>
                             <label for="first-name">FIRST NAME</label>
-                            <input type="text" id="first-name" name="first-name">
+                            <input type="text" id="first-name" name="first-name" required>
                         </li>
 
                         <li>
                             <label for="email">LAST NAME</label> 
-                            <input type="text" id="last-name" name="last-name">
+                            <input type="text" id="last-name" name="last-name" required>
                         </li>
                 </ul>
 
                 <ul class="form-row">
                         <li>
                             <label for="email">EMAIL</label> 
-                            <input type="email" id="email" name="email">
+                            <input type="email" id="email" name="email" required>
                         </li>
 
                         <li>
-                            <label for="phone-number">EMAIL</label> 
-                            <input type="tel" id="phone-number" name="phone-number">
+                            <label for="phone-number">PHONE NUMBER</label> 
+                            <input type="tel" id="phone-number" name="phone-number" required>
                         </li>
                 </ul>
 
                 <ul class="form-row">
                     <li>
                         <label for="password">PASSWORD</label> 
-                        <input type="password" id="password" name="password">
+                        <input type="password" id="password" name="password" required>
                     </li>
 
                     <li>
                         <label for="confirm-password">CONFIRM PASSWORD</label> 
-                        <input type="password" id="confirm-password" name="confirm-password">
+                        <input type="password" id="confirm-password" name="confirm-password" required>
                     </li>
                 </ul>
+            </fieldset>
         </div>
         <div class="sign-up-container">
-            <button id="sign-up-btn">Create Account</button>
-            </fieldset>
+            <button id="sign-up-btn" type="submit">Create Account</button>
             </form>
-            <h1 class="account-text">Already have an account? <button id="login-btn">Log in</button></h1>
+            <h1 class="account-text">Already have an account? <a id="login-btn" href="login.html">Log in</a></h1>
         </div>
 
 
